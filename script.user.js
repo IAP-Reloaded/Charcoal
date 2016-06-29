@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Charcoal
 // @namespace    http://iap-reloaded.github.io/Charcoal
-// @version      0.1
+// @version      0.2
 // @description  dark themes
 // @author       You
 // @match        https://www.google.com/
@@ -9,5 +9,5 @@
 // ==/UserScript==
     
     if (window.location.hostname  == "www.google.com")  {
-    document.getElementById("lga").style.color = "blue";
+    document.getElementById("lga").style.background-color = "black";
         }
